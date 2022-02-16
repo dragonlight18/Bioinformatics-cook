@@ -70,7 +70,7 @@ COMMENT  （注释）   PROVISIONAL REFSEQ: This record has not yet been subject
             L-strand is shown.
             COMPLETENESS: full length.
 FEATURES   （【序列特征表】：特性关键字，特性位置（起始…终止），限定词（/限定词=限定值））          Location/Qualifiers
-     source          1..16569
+     source   物种来源       1..16569
                      /organism="Homo sapiens"
                      /organelle="mitochondrion"
                      /mol_type="genomic DNA"
@@ -79,8 +79,8 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /tissue_type="placenta"
                      /country="United Kingdom: Great Britain"
                      /note="this is the rCRS"
-     D-loop          complement(join(16024..16569,1..576))
-     gene            577..647
+     D-loop    线粒体中DNA的取代环      complement(join(16024..16569,1..576))
+     gene      基因区域      577..647
                      /gene="TRNF"
                      /nomenclature="Official Symbol: MT-TF | Name:
                      mitochondrially encoded tRNA phenylalanine | Provided by:
@@ -88,7 +88,7 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /db_xref="GeneID:4558"
                      /db_xref="HGNC:HGNC:7481"
                      /db_xref="MIM:590070"
-     tRNA            577..647
+     tRNA    转运RNA        577..647
                      /gene="TRNF"
                      /product="tRNA-Phe"
                      /note="NAR: 1455"
@@ -106,7 +106,7 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /db_xref="GeneID:4549"
                      /db_xref="HGNC:HGNC:7470"
                      /db_xref="MIM:561000"
-     rRNA            648..1601
+     rRNA    核糖体RNA        648..1601
                      /gene="RNR1"
                      /gene_synonym="MTRNR1"
                      /product="s-rRNA"
@@ -150,7 +150,7 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /db_xref="GeneID:4550"
                      /db_xref="HGNC:HGNC:7471"
                      /db_xref="MIM:561010"
-     misc_feature    3107
+     misc_feature （生物学特性无法用特性表关键字描述的序列）   3107
                      /note="preserves historical genome annotation numbering"
      gene            3230..3304
                      /gene="TRNL1"
@@ -180,7 +180,7 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /db_xref="GeneID:4535"
                      /db_xref="HGNC:HGNC:7455"
                      /db_xref="MIM:516000"
-     CDS             3307..4262
+     CDS 蛋白质编码序列   3307..4262
                      /gene="ND1"
                      /gene_synonym="MTND1"
                      /note="NADH dehydrogenase, subunit 1 (complex I); TAA stop
@@ -882,7 +882,7 @@ FEATURES   （【序列特征表】：特性关键字，特性位置（起始…
                      /db_xref="GeneID:4571"
                      /db_xref="HGNC:HGNC:7494"
                      /db_xref="MIM:590075"
-ORIGIN      
+ORIGIN 注释     
         1 gatcacaggt ctatcaccct attaaccact cacgggagct ctccatgcat ttggtatttt
        61 cgtctggggg gtatgcacgc gatagcattg cgagacgctg gagccggagc accctatgtc
       121 gcagtatctg tctttgattc ctgcctcatc ctattattta tcgcacctac gttcaatatt
@@ -1162,3 +1162,71 @@ ORIGIN
     16561 atcacgatg
 //
 
+LOCUS 中数据分类：
+PRI →灵长类  ROD → 啮齿类 LNV → 无脊椎动物 PLN → 植物 BCT → 细菌 VRT → 病毒 PHG →抗菌素
+ROD → 啮齿类 SYN → 合成产物 EST → 表达序列标签 PAT → 专利序号 STS → 序列标记位点 GSS → 基因组勘测序列
+HTG → 高通量基因组 HTC → 高通量cDNA ENV → 环境样品 MAN → 其他哺乳动物 VRT → 其他脊椎动物 UNA → 未注释
+
+FEATURES主要关键字：
+attenuator → 与转录终止相关的序列
+C_region → C-免疫特征区
+CAAT_signal→ 真核心启动子上游的CAAT盒
+CDS → 蛋白字编码序列
+confict → 同一序列在不同研究中的差异
+D_loop → 线粒体中DNA中的取代环
+D_segment→D-免疫区
+enhancer → 增强子
+exon → 外显子
+gene → 基因区域
+GC_signal → 真核启动子的GC盒
+iDNA → 通过重组消除的DNA
+intron → 内含子
+J_segment→ J-免疫特征区
+N_region → N-免疫区特征区
+V_region → V-免疫特征区
+S_region → 免疫球蛋白重链开关区
+LTR → 长末端重复序列
+mat_peptide → 编码成熟肽序列
+misc_binding → 无法描述的核酸序列结合位点
+misc_difference → 序列特性无法用特性表关键字描述的序列
+misc_feature → 生物学特性无法用特性表关键字描述的序列
+misc_recomb → 无法用重组特性关键字描述的序列
+misc_RNA → 无法用RNA特性关键字描述的转录物或RNA产物
+misc_signal → 无法用信号关键字描述的信号序列
+misc_structure → 无法用结构关键字描述的高级结构或构型
+modified_base → 修饰过的核苷酸
+mRNA → 信使RNA
+rRNA → 核糖体RNA
+scRNA → 小细胞质RNA
+snRNA → 小核RNA
+tRNA → 转运RNA
+old_sequence → 该序列对以前的版本进行修订
+ployA_signal → RNA转录本的剪切位点
+ployA_site → RNA转录本的多聚腺苷酸化位点
+precursor_RNA → 前体RNA
+prim—transcript → 初始转录本
+primer → PCR引物
+primer_bind → 引物结合位点
+promoter → 转录起始区
+protein_bind → 蛋白质结合区
+RBS → 核糖体结合位点
+rep_origin → 双链DNA复制起始区
+repeat_region → 重复序列
+repeat_unit → 单个的重复原件
+Satellite → 卫星重复序列
+sig_peptide → 编码信号肽序列
+source → 物种来源
+stem_loop → 发夹结构
+STS → 测序标签位点
+TATA_signal → 真核启动子的TATA盒
+terminator → 转录终止序列
+transit_peptide → 转运蛋白质编码序列
+transposon → 转座子 
+unsure → 序列不能确定区   
+variation → 包含稳定突变的序列
+-10_signal → 原核启动子的Pribow盒  
+-35_signal → 原核启动子的-35框 
+3’ clip → 前提转录本被剪切掉的3’端序列
+3’ UTP → 3’非翻译区
+5’ clip → 前体转录本被剪切掉的5’端序列 
+5’ UTP → 5’非翻译区
