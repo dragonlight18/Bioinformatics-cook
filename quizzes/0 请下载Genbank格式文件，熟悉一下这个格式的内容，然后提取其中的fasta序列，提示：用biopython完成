@@ -1,21 +1,21 @@
-LOCUS       NC_012920              16569 bp    DNA     circular PRI 02-SEP-2020
-DEFINITION  Homo sapiens mitochondrion, complete genome.
-ACCESSION   NC_012920 AC_000021
-VERSION     NC_012920.1
-DBLINK      BioProject: PRJNA30353
-KEYWORDS    RefSeq.
-SOURCE      mitochondrion Homo sapiens (human)
-  ORGANISM  Homo sapiens
+LOCUS  (标记：名称，长度，分子类型，数据分类)     NC_012920              16569 bp    DNA     circular PRI（灵长类） 02-SEP-2020
+DEFINITION (【定义】：物种/基因/蛋白质名称，编码区or非编码区，全序列or部分序列) Homo sapiens mitochondrion, complete genome.
+ACCESSION (【检索号】)  NC_012920 AC_000021
+VERSION (【版本号】)    NC_012920.1
+DBLINK   (【相关资源链接】)   BioProject: PRJNA30353
+KEYWORDS (【关键词】)   RefSeq.
+SOURCE (【物种来源】)     mitochondrion Homo sapiens (human)
+  ORGANISM (【物种分类】) Homo sapiens
             Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
             Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
             Catarrhini; Hominidae; Homo.
-REFERENCE   1  (bases 324 to 743)
-  AUTHORS   Andrews,R.M., Kubacka,I., Chinnery,P.F., Lightowlers,R.N.,
+REFERENCE (【参考文献】)  1  (bases 324 to 743)
+  AUTHORS  (【作者】) Andrews,R.M., Kubacka,I., Chinnery,P.F., Lightowlers,R.N.,
             Turnbull,D.M. and Howell,N.
-  TITLE     Reanalysis and revision of the Cambridge reference sequence for
+  TITLE  (题目)   Reanalysis and revision of the Cambridge reference sequence for
             human mitochondrial DNA
-  JOURNAL   Nat. Genet. 23 (2), 147 (1999)
-   PUBMED   10508508
+  JOURNAL  (期刊） Nat. Genet. 23 (2), 147 (1999)
+   PUBMED （PubMed编号）  10508508
 REFERENCE   2  (bases 15888 to 15954)
   AUTHORS   Anderson,S., Bankier,A.T., Barrell,B.G., de Bruijn,M.H.,
             Coulson,A.R., Drouin,J., Eperon,I.C., Nierlich,D.P., Roe,B.A.,
@@ -24,7 +24,7 @@ REFERENCE   2  (bases 15888 to 15954)
   JOURNAL   Nature 290 (5806), 457-465 (1981)
    PUBMED   7219534
 REFERENCE   3  (bases 1 to 16569)
-  CONSRTM   NCBI Genome Project
+  CONSRTM （核酸序列高级结构）  NCBI Genome Project
   TITLE     Direct Submission
   JOURNAL   Submitted (08-JUL-2009) National Center for Biotechnology
             Information, NIH, Bethesda, MD 20894, USA
@@ -35,7 +35,7 @@ REFERENCE   4  (bases 1 to 16569)
             Mitochondrial Medicine and Genetics (MAMMAG) University of
             California, University of California, Irvine, Irvine, CA
             92697-3940, USA
-  REMARK    Sequence update by submitter
+  REMARK （评论）   Sequence update by submitter
 REFERENCE   5  (bases 1 to 16569)
   AUTHORS   Kogelnik,A.M. and Lott,M.T.
   TITLE     Direct Submission
@@ -43,7 +43,7 @@ REFERENCE   5  (bases 1 to 16569)
             University School of Medicine, 1462 Clifton Road, Suite 420,
             Atlanta, GA 30322, USA
   REMARK    sequence updated
-COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+COMMENT  （注释）   PROVISIONAL REFSEQ: This record has not yet been subject to final
             NCBI review. The reference sequence was derived from J01415.
             On Jul 8, 2009 this sequence version replaced AC_000021.2.
             This sequence is a corrected version of the HUMMTCG reference
@@ -69,7 +69,7 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             
             L-strand is shown.
             COMPLETENESS: full length.
-FEATURES             Location/Qualifiers
+FEATURES   （【序列特征表】：特性关键字，特性位置（起始…终止），限定词（/限定词=限定值））          Location/Qualifiers
      source          1..16569
                      /organism="Homo sapiens"
                      /organelle="mitochondrion"
