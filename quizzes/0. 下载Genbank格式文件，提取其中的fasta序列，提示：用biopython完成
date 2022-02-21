@@ -1,1 +1,14 @@
+#!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
 
+from Bio import SeqIO
+with open("/Users/longxinrui/Desktop/quizzes/Homo_sapiens_mitochondrion.gb") as input_handle,open("Homo_sapiens_mitochondrion.fasta", "w") as output_handle:
+    sequences = SeqIO.parse(input_handle, "genbank")
+    count = SeqIO.write(sequences, output_handle, "fasta")
+
+print("Converted %i records" % count)
+
+
+
+count=SeqIO.convert("Homo_sapiens_mitochondrion.gb","genbank","0_0.fasta","fasta")
+print("converted %i records"% count)
