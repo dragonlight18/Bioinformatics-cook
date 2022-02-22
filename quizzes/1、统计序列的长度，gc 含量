@@ -7,3 +7,7 @@ from Bio.SeqUtils import GC
 for i, seq_record in enumerate(SeqIO.parse("/Users/longxinrui/Desktop/quizzes/Homo_sapiens_mitochondrion.fasta", "fasta")):
     print("seq_len:",len(seq_record.seq))
     print("gc_proportion:",GC(seq_record.seq))
+
+    
+    seq_len: 16569
+gc_proportion: 44.35994930291508
